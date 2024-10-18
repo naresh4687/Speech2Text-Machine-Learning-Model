@@ -1,0 +1,9 @@
+**DATASET**
+
+**(IN THIS CODE TO DETERMINE THE OF THE DATASET)**
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("vjcalling/speaker-recognition-audio-dataset")
+
+print("Path to dataset files:", path)
